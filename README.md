@@ -3,6 +3,7 @@ A OOPs based Java Spotify backend project is a software application that uses ob
 
 This project is a backend service for a music streaming platform that mimics the features and functionalities of Spotify. It uses object-oriented programming principles and Java language features to create a modular, scalable, and maintainable application. It also uses Spring Boot framework and MongoDB database to provide RESTful APIs for the frontend and mobile clients.
 
+ ![image](https://github.com/BIMAL-DEBNATH/Spotify-Web-Player/assets/131388946/b77371f4-ca14-4635-8251-b98d26a3afb4)
 ## Features
 
 - **Music Playback:** The system allows users to stream music from a large collection of songs stored in MongoDB GridFS. The system also supports basic playback controls such as play, pause, skip, shuffle, repeat, and volume.
@@ -12,7 +13,7 @@ This project is a backend service for a music streaming platform that mimics the
 - **Music playback**: I created a class called Player that represents a music player that can play any type of music object (Album, Playlist, or Music). The Player class has fields such as currentMusic, currentTime, and state. The currentMusic field is a Music object that stores the current music being played by the player. The currentTime field is an int that stores the current time position of the playback in seconds. The state field is an enum that stores the current state of the player (PLAYING, PAUSED, or STOPPED). The Player class also has methods such as play, pause, stop, skipForward, and skipBackward that allow the user to control the playback of the music.
 ## Technologies
 
-![image](https://github.com/BIMAL-DEBNATH/Spotify-Web-Player/assets/131388946/b77371f4-ca14-4635-8251-b98d26a3afb4)
+
 
 - **Java:** The programming language used to develop the backend service.
 
